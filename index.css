@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
+    
+}
+#main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    /* color: crimson; */
+}
+
+
+
+#header h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(220, 20, 60, 0.9);
+    
+}
+
+#content {
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: crimson; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+#content #inputForm #inputTask {
+    width:100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+    
+}
+#content #inputForm #taskDate{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+}
+#content #inputForm #btn{
+    background-color:rgb(220, 20, 60, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 10px;
+}
+#tasklist{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: crimson; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid rgb(220, 20, 60, 0.9);
+    border-radius: 10px;
+}
+
